@@ -79,7 +79,7 @@ public class ShoppingListActivity extends AppCompatActivity {
 
             }
         });
-        listAdapter = new ShoppingListAdapter(this, R.layout.row_shooping_list, listItems, spinnerAdapter, spinnerItems, itemSpinner);
+        listAdapter = new ShoppingListAdapter(this, R.layout.row_shopping_list, listItems, spinnerAdapter, spinnerItems, itemSpinner);
         itemList.setAdapter(listAdapter);
     }
 

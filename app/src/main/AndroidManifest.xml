@@ -28,6 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.udemy.michalgellert.udemyandroid.MainActivity" />
         </activity>
+        <activity android:name=".DrawActivity"></activity>
     </application>
 
 </manifest>

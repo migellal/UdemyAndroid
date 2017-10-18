@@ -44,7 +44,7 @@ public class ShoppingListAdapter extends ArrayAdapter {
     @Override
     public View getView(final int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View rowView = inflater.inflate(R.layout.row_shooping_list, parent, false);
+        View rowView = inflater.inflate(R.layout.row_shopping_list, parent, false);
         TextView name = rowView.findViewById(R.id.name_ET);
         name.setText("" + objects.get(position));
         CheckBox selected = rowView.findViewById(R.id.selected_CB);
