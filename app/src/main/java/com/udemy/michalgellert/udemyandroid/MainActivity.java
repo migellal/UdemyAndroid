@@ -1,6 +1,7 @@
 package com.udemy.michalgellert.udemyandroid;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -47,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.viewButton)
     void onClickView() {
         Intent intent = new Intent(this, ViewActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.infoButton)
+    void onClickInfo() {
+        String url = "https://www.udemy.com";
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(url));
         startActivity(intent);
     }
 

@@ -60,4 +60,17 @@
         app:layout_constraintRight_toRightOf="@+id/apiButton"
         app:layout_constraintTop_toBottomOf="@+id/apiButton" />
 
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/course_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/viewButton"
+        app:layout_constraintStart_toStartOf="@+id/viewButton"
+        app:layout_constraintTop_toBottomOf="@+id/viewButton"
+        app:layout_constraintVertical_bias="1.0" />
+
 </android.support.constraint.ConstraintLayout>
