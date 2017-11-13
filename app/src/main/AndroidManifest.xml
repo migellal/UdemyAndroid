@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.udemy.michalgellert.udemyandroid">
+    package="pl.digitalzombielab.udemyandroid">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="pl.digitalzombielab.udemyandroid.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -21,17 +21,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ShoppingListActivity"
+            android:name="pl.digitalzombielab.udemyandroid.ShoppingListActivity"
             android:label="@string/title_activity_shopping_list"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="pl.digitalzombielab.udemyandroid.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.udemy.michalgellert.udemyandroid.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
-        <activity android:name=".DrawActivity" />
-        <activity android:name=".ApiActivity" />
-        <activity android:name=".ViewActivity"/>
+        <activity android:name="pl.digitalzombielab.udemyandroid.DrawActivity" />
+        <activity android:name="pl.digitalzombielab.udemyandroid.ApiActivity" />
+        <activity android:name="pl.digitalzombielab.udemyandroid.ViewActivity"/>
     </application>
 
 </manifest>

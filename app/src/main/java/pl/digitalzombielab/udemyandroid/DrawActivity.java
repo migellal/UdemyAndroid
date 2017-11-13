@@ -1,7 +1,7 @@
-package com.udemy.michalgellert.udemyandroid;
+package pl.digitalzombielab.udemyandroid;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import static android.view.Window.FEATURE_NO_TITLE;
 import static android.view.WindowManager.LayoutParams.FLAG_FULLSCREEN;

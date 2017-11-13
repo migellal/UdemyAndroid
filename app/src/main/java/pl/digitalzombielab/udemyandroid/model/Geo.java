@@ -1,5 +1,5 @@
 
-package com.udemy.michalgellert.udemyandroid.model;
+package pl.digitalzombielab.udemyandroid.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

@@ -1,4 +1,4 @@
-package com.udemy.michalgellert.udemyandroid
+package pl.digitalzombielab.udemyandroid
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

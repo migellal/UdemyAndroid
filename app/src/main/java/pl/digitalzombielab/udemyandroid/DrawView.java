@@ -1,4 +1,4 @@
-package com.udemy.michalgellert.udemyandroid;
+package pl.digitalzombielab.udemyandroid;
 
 import android.content.Context;
 import android.graphics.Canvas;

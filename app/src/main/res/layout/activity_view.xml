@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.udemy.michalgellert.udemyandroid.ViewActivity">
+    tools:context="pl.digitalzombielab.udemyandroid.ViewActivity">
 
     <view
-        class="com.udemy.michalgellert.udemyandroid.TriangleView"
+        class="pl.digitalzombielab.udemyandroid.TriangleView"
         id="@+id/view"
         android:layout_width="100dp"
         android:layout_height="100dp"

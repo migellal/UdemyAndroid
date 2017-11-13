@@ -1,4 +1,4 @@
-package com.udemy.michalgellert.udemyandroid;
+package pl.digitalzombielab.udemyandroid;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -16,7 +16,6 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
-import com.udemy.michalgellert.udemyandroid.model.User;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -27,6 +26,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import pl.digitalzombielab.udemyandroid.model.User;
 
 public class ApiActivity extends AppCompatActivity {
 

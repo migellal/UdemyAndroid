@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.udemy.michalgellert.udemyandroid.ApiActivity">
+    tools:context="pl.digitalzombielab.udemyandroid.ApiActivity">
 
     <ProgressBar
         android:id="@+id/progressBar"
