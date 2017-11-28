@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Udemy Android</string>
-    <string name="action_settings">Ustawienia</string>
+    <string name="action_info">Info</string>
     <string name="shopping_list_button">Lista zakupów</string>
     <string name="draw_button">Rysowanie</string>
     <string name="api_button">API</string>
@@ -9,5 +9,8 @@
     <string name="html_button">Dane z HTML</string>
     <string name="json_button">Date z JSON</string>
     <string name="title_activity_shopping_list">Lista zakupów</string>
-    <string name="course_info">Informacja o kursie Udemy</string>
+    <string name="course_info">Zniżka na kurs, gdzie tworzymy tą aplikację</string>
+    <string name="dialog_message">Ta aplikacja jest częścią kursu Udemy: "Praktyczny podstawowy kurs tworzenia aplikacji na system operacyjny Android". Kliknij na zniżkę, aby otrzymać więcej informacji!</string>
+    <string name="dialog_title">Informacja</string>
+    <string name="ok">OK</string>
 </resources>

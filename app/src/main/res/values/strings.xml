@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Udemy Android</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_info">Info</string>
     <string name="shopping_list_button">Shopping list</string>
     <string name="draw_button">Draw</string>
     <string name="api_button">API</string>
@@ -8,5 +8,8 @@
     <string name="html_button">Data from HTML</string>
     <string name="json_button">Data from JSON</string>
     <string name="title_activity_shopping_list">Shopping list</string>
-    <string name="course_info">Udemy course info</string>
+    <string name="course_info">Udemy course coupon</string>
+    <string name="dialog_message">This application is a part of Udemy course. Course is only available in polish.</string>
+    <string name="dialog_title">Info</string>
+    <string name="ok">OK</string>
 </resources>
